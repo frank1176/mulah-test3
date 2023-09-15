@@ -37,5 +37,5 @@ def get_headlines():
     headlines = sorted(headlines, key=lambda x: x['date'], reverse=True)
     return headlines
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     app.run(debug=True)
